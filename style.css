@@ -1,10 +1,15 @@
+body{
+    background-color:rgb(18,18,18)
+}
+
 h1{
     text-align: center;
-    color:black;
+    color:white;
     font-size: 55px;
     font-weight: bold;
     font-family:arial,sans-serif,bold;
 }
+
 h2{
     font-weight: bold;
     font-family:arial,sans-serif,bold;
@@ -20,18 +25,16 @@ h3{
 }
 
 div{
-    border-radius:50%;
-    
+    border-radius:50%;    
 }
+
 ul{
     display:inline-block;
 }
 
 .produits{
-    background-color:rgb(31, 32, 33);
-    color:black;
+    color:white;
     margin-left:100px;
-    background-color:white;
     font-weight:bold;
     font-family:arial,sans-serif,bold;
 }   
@@ -40,15 +43,15 @@ ul{
     margin: 100px;
     display:flex;
     align-items:center;
-
 }
+
 .first{
     display:flex;
     align-items:center;
     font-weight: bold;
     font-family:arial,sans-serif,bold;
-    padding:90px;
-    margin:00px;
+    padding:0px;
+    margin:0px;
     padding-left:50ch;
 }
 
@@ -82,7 +85,7 @@ nav.nav {
 
 nav.nav li {
     display: flex center;
-    color: rgb(0, 0, 0);
+    color: white;
     float: left;
     justify-content:center;
     text-align:center;
@@ -103,7 +106,7 @@ nav.nav li {
 }
 
 a{
-color:black;
+color:white;
 text-decoration: none;
 font-size:35px;
 }
@@ -113,11 +116,12 @@ font-size:35px;
         width: 60%;
     }
     .Benefices {
-        width:60%
+        width:60%;
     }
     .Explications {
-        width:60%
+        width:60%;
     }
     .top-page {
         width: 60px;
        }
+    }
